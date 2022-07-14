@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/main.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <title>Tunes</title>
+</head>
+<body class="">
+    <div class="overflow-x-hidden border border-teal-700 relative">
+        <nav class="container flex justify-between items-center my-6 mx-auto px-6">
+            <div class="flex justify-between space-x-6 items-center">
+                <div class="py-3">
+                    <img src="./img/logo.svg" alt="">
+                </div>
+                <div class="py-3  text-sm items-center space-x-6 hidden md:flex">
+                    <select name="Features" class="border-0 bg-transparent active:border-0 active:bg-transparent" id="">
+                        <option selected class="sm" value="features">Features</option>
+        
+                        <option value="to-do-list">
+                            <a href="#" class="flex space-x-2 items-center hover:text-mediumGrey ">
+                                <p>To do List</p>
+                                <img src="/img/icon-todo.svg" alt="">
+        
+                            </a>
+                        </option>
+                        <option value="calender">
+                            <a href="#" class="flex items-center hover:text-mediumGrey">
+                                <img src="/img/icon-calendar.svg" alt="">
+                                <p>Calender</p>
+                            </a>
+                        </option>
+                        <option value="reminders">
+                            <a href="#" class="flex items-center hover:text-mediumGrey">
+                                <img src="/img/icon-reminders.svg" alt="">
+                                <p>Reminders</p>
+                            </a>
+                        </option>
+                        <option value="planning">
+                            <a href="#" class="flex items-center hover:text-mediumGrey">
+                                <img src="/img/icon-planning.svg" alt="">
+                                <p>Planning</p>
+                            </a>
+                        </option>
+                    </select>
+        
+                    <select name="Features" class="active:border-0 active:bg-transparent" id="">
+                        <option selected class="space-y-6" value="Company">Company</option>
+        
+                        <option value="to-do-list">
+                            <a href="#" class="flex space-x-2 items-center hover:text-mediumGrey ">
+                                History
+                            </a>
+                        </option>
+                        <option value="calender">
+                            <a href="#" class="flex items-center hover:text-mediumGrey">
+                                Our Team
+                            </a>
+                        </option>
+                        <option value="reminders">
+                            <a href="#" class="flex items-center hover:text-mediumGrey">
+                                Blog
+                            </a>
+                        </option>
+                    </select>
+        
+        
+        
+                    <a href="#" class="hover:text-mediumGrey">
+                        Career
+                    </a>
+                    <a href="#" class="hover:text-mediumGrey">
+                        About
+                    </a>
+                </div>
+            </div>
+            <div class="hidden  items-center space-x-6 py-3 md:flex">
+                <a href="" class=" text-sm hover:text-mediumGrey">
+                    Log In
+                </a>
+                <a href="" class="border-2 border-mediumGrey px-3 py-1 py rounded-full text-sm hover:text-mediumGrey">
+                    Register
+                </a>
+            </div>
+            <button class="z-50 hamburger-btn md:hidden">
+                <span class="text-3xl open-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <span class="hidden text-3xl close-btn text-red-500">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </button>
+        
+        </nav>
+        
+        <section class="">
+            <div
+                class="container flex my-6 flex-col-reverse items-center text-center mx-auto md:py-5 md:text-left md:flex-row md:px-40 md:space-x-6">
+                <div class="space-y-6 mt-12 md:space-y-10 lg:space-y-12 md:w-1/2">
+                    <h1 class="font-bold text-5xl my-6 text-almostBlack md:text-6xl ">
+                        Make remote work
+                    </h1>
+                    <p class="text-mediumGrey pb-5 md:text-lg">
+                        Get your team in sync, no matter your location.
+                        Streaming processes,create team rituals, and
+                        watch productivity soar
+                    </p>
+                    <a href="#"
+                        class="border-2 bg-almostBlack inline-block font-bold text-lg text-white px-4 py-2 rounded-xl hover:bg-orange-400">
+                        Learn More
+                    </a>
+                    <div class="flex justify-center items-center pt-12 space-x-3 md:justify-left md:pt-24">
+                        <img src="./img/client-databiz.svg" class="md:w-1/4" alt="">
+                        <img src="./img/client-audiophile.svg" class="md:w-1/4" alt="">
+                        <img src="./img/client-meet.svg" class="md:w-1/4" alt="">
+                        <img src="./img/client-maker.svg" class="md:w-1/4" alt="">
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./img/image-hero-desktop.png" class="hidden md:block" alt="">
+                    <img src="./img/image-hero-mobile.png" class=" md:hidden" alt="">
+                </div>
+            </div>
+        
+        </section>
+        
+        
+        <section
+            class="side-bar absolute top-0 bottom-0 right-0 h-full translate-x-full w-3/4 bg-blue-200 transition-all duration-500 ease-in-out md:hidden ">
+            <div class="py-5 flex flex-col text-mediumGrey mt-24 text-md font-bold items-start px-6 ">
+        
+                <select name="Features" class="border-0 bg-transparent py-5 " id="">
+                    <option selected class="sm" value="features">Features</option>
+        
+                    <option value="to-do-list">
+                        <a href="#" class="flex space-x-2 items-center hover:text-mediumGrey ">
+                            <p>To do List</p>
+                            <img src="/img/icon-todo.svg" alt="">
+        
+                        </a>
+                    </option>
+                    <option value="calender">
+                        <a href="#" class="flex items-center hover:text-mediumGrey">
+                            <img src="/img/icon-calendar.svg" alt="">
+                            <p>Calender</p>
+                        </a>
+                    </option>
+                    <option value="reminders">
+                        <a href="#" class="flex items-center hover:text-mediumGrey">
+                            <img src="/img/icon-reminders.svg" alt="">
+                            <p>Reminders</p>
+                        </a>
+                    </option>
+                    <option value="planning">
+                        <a href="#" class="flex items-center hover:text-mediumGrey">
+                            <img src="/img/icon-planning.svg" alt="">
+                            <p>Planning</p>
+                        </a>
+                    </option>
+                </select>
+        
+                <select name="Company" class="py-5 bg-transparent" id="">
+                    <option selected class="space-y-3" value="Company">Company</option>
+        
+                    <option value="to-do-list">
+                        <a href="#" class="flex  hover:text-mediumGrey ">
+                            History
+                        </a>
+                    </option>
+                    <option value="calender">
+                        <a href="#" class="flex  hover:text-mediumGrey">
+                            Our Team
+                        </a>
+                    </option>
+                    <option value="reminders">
+                        <a href="#" class="flex  hover:text-mediumGrey">
+                            Blog
+                        </a>
+                    </option>
+                </select>
+        
+                <a href="#" class="hover:text-mediumGrey py-5">
+                    Career
+                </a>
+                <a href="#" class="hover:text-mediumGrey py-5">
+                    About
+                </a>
+            </div>
+            <div class="text-start items-center flex flex-col px-6 py-12 ">
+                <a href="" class=" inline-block mb-4 text-2xl font-bold hover:text-mediumGrey">
+                    Log In
+                </a>
+                <a href=""
+                    class="border-2 border-mediumGrey font-bold px-12 py-1 py rounded-2xl text-md hover:text-almostWhite side-bar hover:bg-almostBlack hover:border-0">
+                    Register
+                </a>
+            </div>
+        </section>
+    </div>
+    <!-- Nav bar -->
+    
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

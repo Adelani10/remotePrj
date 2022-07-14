@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media(max-width:768px){
+    .show-side{
+        transform: translateX(0);
+    }
+    .close{
+        display: none;
+    }
+    .open{
+        display: block;
+    }
+}
